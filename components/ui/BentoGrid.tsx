@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Java", "Springboot", "Azure"];
-  const rightLists = ["J2EE", "MySql", "Servlets"];
+  const leftLists = ["Java", "Springboot", "Servlets"];
+  const rightLists = ["J2EE", "MySql", "Azure"];
 
   const [copied, setCopied] = useState(false);
 
@@ -141,9 +141,9 @@ export const BentoGridItem = ({
 
           {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 md:right-2 md:mt-1">
+            <div className="flex gap-1 lg:gap-3 w-fit absolute right-0 lg:-right-1 md:right-2 md:mt-1">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-3">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
@@ -155,7 +155,7 @@ export const BentoGridItem = ({
                 ))}
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-3">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
                 {rightLists.map((item, i) => (
                   <span
