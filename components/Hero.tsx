@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Saddam Khan, a JAVA Developer based in Madhya Pradesh India.
+            Hi, I'm Saddam Khan, a JAVA Developer based in Madhya Pradesh, India.
           </p>
 
           <a href="#about">
